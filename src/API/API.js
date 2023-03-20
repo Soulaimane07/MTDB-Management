@@ -6,6 +6,7 @@ const genreURL = "http://localhost:3500/genres";
 const seasonsURL = "http://localhost:3500/seasons";
 const networksURL = "http://localhost:3500/networks";
 const usersURL = "http://localhost:3500/users";
+const moviesURL = "http://localhost:3500/movies";
 
 export const API = () => {
   const [series, setSeries] = useState()
@@ -13,6 +14,7 @@ export const API = () => {
   const [seasons, setSeasons] = useState()
   const [networks, setNetworks] = useState()
   const [users, setUsers] = useState()
+  const [movies, setMovies] = useState()
 
   useEffect(() => {
     axios.get(baseURL).then((response) => {
@@ -34,10 +36,14 @@ export const API = () => {
     axios.get(usersURL).then((response) => {
       setUsers(response.data);
     });
+
+    axios.get(moviesURL).then((response) => {
+      setMovies(response.data);
+    });
   }, []);
 
   return (
-    {series, genres, seasons, networks, users}
+    {series, movies, genres, seasons, networks, users}
   )
 }
 
@@ -51,6 +57,18 @@ export const SeriesData = () => {
   }, []);
 
   return series
+}
+
+export const MoviesData = () => {
+  const [movies, setMovies] = useState()
+
+  useEffect(() => {
+    axios.get(moviesURL).then((response) => {
+      setMovies(response.data);
+    });
+  }, []);
+
+  return movies
 }
 
 export const UsersData = () => {

@@ -19,6 +19,7 @@ import Users from './Pages/Users.js/Users';
 import Login from './Pages/Auth/Login/Login';
 import Sign from './Pages/Auth/Sign/Sign';
 import Profile from './Pages/Profile/Profile';
+import Movies from './Pages/Movies/Movies';
 
 function App() {
   const [logged, setLogged] = useState(false)
@@ -50,6 +51,9 @@ function App() {
                     <Route path='' element={<Series lang={lang} />} />
                     <Route path={`details/:id`} element={<DetailsSeries />} />
                     <Route path='create' element={<CreateSeries />} />
+                </Route>
+                <Route path='movies'>
+                  <Route path='' element={<Movies />} />
                 </Route>
                 <Route path='/genres'>
                     <Route path='' element={<Genres lang={lang} />} />
