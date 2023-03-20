@@ -1,0 +1,205 @@
+{
+    "English":{
+        "title":"English",
+        "navbar":{
+            "dashboard":"Dashboard",
+            "tv":"TV Shows",
+            "movies":"Movies",
+            "genres":"Genres",
+            "networks":"Networks",
+            "users":"Users"
+        },
+        "account":{
+            "account":"Account",
+            "language":"Language",
+            "theme":"Theme",
+            "light":"Light",
+            "dark":"Dark",
+
+            "fname":"First Name",
+            "lname":"Last Name",
+            "phone":"Phone Number",
+            "email":"Email Address",
+            "pass":"Password"
+        },
+        "table":{
+            "id":"Id",
+            "title":"Title",
+            "genre":"Genre",
+            "seasons":"Seasons",
+            "status":"Status",
+            "createNewShow":"Create New Show",
+            "fullName":"Full Name"
+        },
+        "buttons":{
+            "createTv":"Create TV Show",
+            "createGenre":"Create Genre",
+            "createNet":"Create Network",
+            "createUser":"Create User",
+            "update":"Update",
+            "cancel":"Cancel"
+        },
+        "auth":{
+            "login":{
+                "title":"Log in to your account",
+                "login":"Log in",
+                "dont":"Don't have an account?",
+                "signup":"Sign Up"
+            },
+            "box":{
+                "title":"Discover Hulu Streaming Website",
+                "text":"Power modern applications with enriched querying capabilities, new operators, added encryption features and more.",
+                "button":"Check out"
+            },
+            "signup":{
+                "have":"Have account?",
+                "button":"Create Account",
+                "title":"Create your account",
+                "login":"Log in Now"
+            }
+        },
+        "alerts":{
+            "logout":"Are you sure you want to log out?",
+            "no":"No",
+            "yes":"Yes"
+        }
+    },
+
+
+
+
+    "frensh":{
+        "title":"Français",
+        "navbar":{
+            "dashboard":"Tableau bord",
+            "tv":"Séries",
+            "movies":"Films",
+            "genres":"Genres",
+            "networks":"Réseaux",
+            "users":"Utilisateurs"
+        },
+        "account":{
+            "account":"Compte",
+            "language":"Langue",
+            "theme":"Thème",
+            "light":"Clair",
+            "dark":"Sombre",
+
+            "fname":"Prénom",
+            "lname":"Nom de famille",
+            "phone":"Numéro de téléphone",
+            "email":"Adresse e-mail",
+            "pass":"Mot de passe"
+        },
+        "table":{
+            "id":"Id",
+            "title":"Titre",
+            "genre":"Genre",
+            "seasons":"Saisons",
+            "status":"Statut",
+            "createNewShow":"Créer une nouvelle émission de télévision",
+            "fullName":"Nom et Prénom"
+        },
+        "buttons":{
+            "createTv":"Créer une série",
+            "createGenre":"Créer un genre",
+            "createNet":"Créer un réseau",
+            "createUser":"Créer un utilisateur",
+            "update":"Mettre à jour",
+            "cancel":"Annuler"
+        },
+        "auth":{
+            "login":{
+                "title":"Connectez-vous à votre compte",
+                "login":"Connexion",
+                "dont":"Vous n'avez pas de compte ?",
+                "signup":"S'inscrire"
+            },
+            "box":{
+                "title":"Découvrez le site de streaming Hulu",
+                "text":"Alimentez les applications modernes avec des capacités d'interrogation enrichies, de nouveaux opérateurs, des fonctionnalités de cryptage supplémentaires et bien plus encore.",
+                "button":"Viser"
+            },
+            "signup":{
+                "have":"Avoir un compte?",
+                "button":"Créer un compte",
+                "title":"Créez votre compte",
+                "login":"Connecte-toi maintenant"
+            }
+        },
+        "alerts":{
+            "logout":"Êtes-vous sûr de vouloir vous déconnecter?",
+            "no":"Non",
+            "yes":"Oui"
+        }
+    },
+
+
+
+
+    "Arabic":{
+        "title":"العربية",
+        "navbar":{
+            "dashboard":"لوحة القيادة",
+            "tv":"المسلسلات",
+            "movies":"الافلام",
+            "genres":"الأنواع",
+            "networks":"الشبكات",
+            "users":"المستخدمين"
+        },
+        "account":{
+            "account":"الحساب",
+            "language":"اللغة",
+            "theme":"المظهر",
+            "light":"فاتح",
+            "dark":"داكن",
+
+            "fname":"الاسم الأول",
+            "lname":"اسم العائلة",
+            "phone":"رقم التليفون",
+            "email":"عنوان البريد الالكترونى",
+            "pass":"كلمة المرور"
+        },
+        "table":{
+            "id":"Id",
+            "title":"العنوان",
+            "genre":"النوع",
+            "seasons":"الفصول",
+            "status":"الحالة",
+            "createNewShow":"إنشاء برنامج تلفزيوني جديد",
+            "fullName":"الاسم الكامل"
+        },
+        "buttons":{
+            "createTv":"إنشاء مسلسل",
+            "createGenre":"إنشاء نوع",
+            "createNet":"إنشاء شبكة",
+            "createUser":"إنشاء مستخدم",
+            "update":"تحديث",
+            "cancel":"إلغاء"
+        },
+        "auth":{
+            "login":{
+                "title":"تسجيل الدخول إلى حسابك",
+                "login":"تسجيل الدخول",
+                "dont":"ليس لديك حساب؟",
+                "signup":"اشترك"
+            },
+            "box":{
+                "title":"اكتشف موقع Hulu Streaming",
+                "text":"قم بتشغيل التطبيقات الحديثة بإمكانيات استعلام غنية وعوامل تشغيل جديدة وميزات تشفير مضافة والمزيد.",
+                "button":"تحقق"
+            },
+            "signup":{
+                "have":"لديك حساب?",
+                "button":"إنشاء حساب",
+                "title":"أنشئ حسابك",
+                "login":"تسجيل الدخول الآن"
+            }
+        },
+        "alerts":{
+            "logout":"هل أنت متأكد أنك تريد تسجيل الخروج؟",
+            "no":"أبدا",
+            "yes":"أجل"
+        }
+    }
+}

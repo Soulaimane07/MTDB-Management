@@ -1,0 +1,122 @@
+.create .header {
+    margin-bottom: 0;
+}
+.create hr, .profilePage hr {
+    height: 1px;
+    background-color: #15e886c6;
+    border: none;
+    margin-bottom: 30px;
+}
+
+
+.create .content {
+    width: 40%;
+    margin: 0 auto;
+}
+.create .progress {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.create .progress h1 {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    transition: all 300ms;
+}
+.create .progress .active {
+    border-radius: 8px;
+    background-color: #15e886;
+    color: white;
+}
+.create .progress .finished {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.create .progress .finished span {
+    color: #15e886;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+
+.create .serie {
+    display: grid;
+    margin: 0 auto;
+}
+.create .image {
+    transition: all 300ms;
+    color: #3a3a3a8a;
+    margin-bottom: 30px;
+    border-color: #15e88688;
+}
+.dark .create .image {
+    color: rgba(255, 255, 255, 0.305);
+}
+.create .image:hover {
+    border-color: #15e886;
+    background-color: #15e8860d;
+    color: #15e886;
+}
+.create .logo {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    /* width: 100%; */
+    background-color: #15e886;
+}
+.create .logo img {
+    width: 100%;
+}
+
+.create .form {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.create .form h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.input input, .create select, textarea {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #15e886b5;
+    padding: 10px 20px;
+    outline: none;
+    margin-bottom: 20px;
+} 
+.dark .create select .dark textarea  {
+    background: none;
+    /* background-color: #0B0B0B; */
+}
+
+
+.input.select input {
+    padding: 0;
+}
+
+
+
+.input.select input::-webkit-file-upload-button {
+    padding: 10px 20px;
+    background-color: #15e886;
+    color: white;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+  
+
+.inputimg {
+    width: 40%;
+    background-color: cadetblue;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.inputimg img {
+    width: 100%;
+}

@@ -1,0 +1,88 @@
+.login, .signup {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.login .form , .signup .form {
+    height: 100vh;
+    width: 30%;
+    padding: 40px;
+}
+.form .image {
+    width: 40%;
+}
+.form h1  {
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0;
+    margin-top: 60px;
+}
+
+
+.loginBtn {
+    background-color: #15e886;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    transition: all 300ms;
+}
+.loginBtn.active:hover {
+    color: #15e886;
+    background: none;
+    border-color: #15e886;
+}
+
+.loginBtn.dis {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    transition: all 300ms;
+    opacity: 40%;
+}
+.form .link {
+    color: #15e886;
+}
+
+
+.auth {
+    width: 70%;
+    background-color: #06a95d;
+    background-image: url('/public/assets/images/hulu_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+.background {
+    padding: 50px;
+    background-color: #15e886;
+    width: 50%;
+    height: 60%;
+    border-bottom-right-radius: 100px;
+}
+.auth h1 {
+    font-size: 36px;
+}
+.auth p {
+    font-size: 20px;
+    width: 80%;
+    margin: 20px 0;
+    font-size: 16px;
+}
+.auth .link {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.link span {
+    margin-left: 10px;
+    font-size: 16px;
+}

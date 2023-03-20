@@ -1,0 +1,45 @@
+.home {
+    /* background-color: cornflowerblue; */
+    height: 100vh;
+    width: 100%;
+    /* color: white; */
+}
+.home .stats {
+    display: flex;
+    align-items: center;
+}
+.home .stats .card {
+    background-color: #15e8861e;
+    padding: 20px;
+}
+.home .stats .body {
+    display: flex;
+    align-items: center;
+}
+.home .stats .card .icon {
+    background-color: #15E884;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+.home .stats .card h2 {
+    font-size: 16px;
+    opacity: 60%;
+}
+.home .stats .card h4 {
+    font-weight: bold;
+}
+
+
+.home .stats .card hr {
+    margin: 10px 0;
+}
+.home .stats .card .link {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    opacity: 60%;
+}

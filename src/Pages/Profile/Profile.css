@@ -1,0 +1,196 @@
+.profilePage {
+    min-height: 100vh;
+}
+.profilePage .header {
+    margin-bottom: 0;
+}
+.profilePage .content {
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 0;
+}
+.profilePage .content .profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #15e8861a;
+    padding: 20px;
+    border-radius: 8px;
+}
+.profilePage .content hr {
+    margin: 0px 0 40px 0;
+}
+.profilePage .content .profile .edit {
+    background-color: #15e886;
+    color: white;
+    padding: 14px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    transition: all 300ms;
+}
+.profilePage .content .profile .edit.active {
+    background-color: white;
+    color: #15e886;
+    border-color: #15e886;
+}
+.profilePage .content .profile .edit:hover {
+    background: none;
+    border-color: #15e886;
+    color: #15e886;
+}
+.profilePage .content .profile .logOut {
+    background-color: #D2001A;
+    color: white;
+    padding: 14px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    transition: all 300ms;
+    margin-left: 10px;
+}
+.profilePage .content .profile .logOut:hover {
+    background: none;
+    border-color: #D2001A;
+    color: #D2001A;
+}
+
+
+
+.profilePage .content .profile .user {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.profilePage .content .profile .user .image {
+    /* background-color: white; */
+    color: #15e886;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    overflow: hidden;
+
+    
+    background-size: cover;
+}
+.profilePage .content .profile .user .image img {
+    width: 100%;
+    height: 100%;
+}
+.profilePage .content .profile .user .image span {
+    font-size: 40px;
+}
+.profilePage .content .profile .user .body {
+    margin-left: 20px;
+}
+.profilePage .content .profile .user .body h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+.profilePage .content .profile .user .body h2 {
+    font-size: 12px;
+    opacity: 60%;
+}
+
+
+
+.profilePage .content .form {
+    /* background-color: #15e886; */
+    width: 100%;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* height: 100px; */
+}
+.profilePage .content .form .name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profilePage .content .form .name .input {
+    width: 46%;
+}
+.profilePage .content .form .input {
+    margin-bottom: 20px;
+    display: grid;
+}
+.profilePage .content .form .input label {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.profilePage .content .form .input select {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #15e886b5;
+    padding: 10px 20px;
+    outline: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.dark .input input, .dark .input select {
+    background: none;
+    background-color: #0B0B0B;
+}
+
+
+.cancelbtn.dis {
+    background-color: rgba(220, 20, 60, 0.548);
+}
+
+.inputField {
+    margin: 0 auto;
+    background-color: #15e886;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 40px;
+    color: white;
+    overflow: hidden;
+    border: 1px solid #15e886;
+}
+.inputField .image {
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    position: relative;
+    height: 100%;
+}
+.inputField .image img {
+    width: 100%;
+    height: 100%;
+}
+.inputField .image span {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+.inputField:hover .edit {
+    display: flex;
+}
+
+.inputField .edit {
+    transition: all 300ms;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.673);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: #15e886;
+    display: none;
+}
+
+
+.content .profileform{
+    padding-bottom: 50%;
+}

@@ -1,0 +1,8 @@
+.signup .auth {
+    display: flex;
+    justify-content: right;
+}
+.signup .background {
+    border-radius: 0;
+    border-bottom-left-radius: 100px;
+}
