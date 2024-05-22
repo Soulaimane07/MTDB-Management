@@ -70,7 +70,7 @@ function Navbar(props) {
             NavItem(key, item.title, item.path, item.icon)
           ))}
         </ul>
-        <Link to={'/account'} className='profile'>
+        {/* <Link to={'/account'} className='profile'>
           <div className='image'> 
             {user.profile !== 'profile'
               ? <img src={`${urlImg}${user.profile}`} /> 
@@ -80,7 +80,7 @@ function Navbar(props) {
           <div className='details'>
             <h1> {user.fname} </h1>
           </div>
-        </Link>
+        </Link> */}
       </div>
     </div>
   )

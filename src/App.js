@@ -28,12 +28,12 @@ function App() {
     "theme": "light"
   })
 
-  useEffect(() => {
-    const user = JSON.parse(localStorage.getItem('user'))
-    user?.email && user?.pass && setLogged(true)
+  // useEffect(() => {
+  //   const user = JSON.parse(localStorage.getItem('user'))
+  //   user?.email && user?.pass && setLogged(true)
 
-    setAccount(JSON.parse(localStorage.getItem('account')))
-  }, []);
+  //   setAccount(JSON.parse(localStorage.getItem('account')))
+  // }, []);
 
   const lang = account.lang == null ? 'english' : account.lang
   const theme = account.theme == null ? 'light' : account.theme
@@ -42,8 +42,8 @@ function App() {
   return (
     <div className={`app ${theme === "dark" && 'dark'}`}>
       <BrowserRouter>
-        {logged ?
-          <>
+        {/* {logged ?
+          <> */}
             <div className='content'>
               <Routes>
                 <Route path='/' element={<Home lang={lang} />} />
@@ -66,13 +66,13 @@ function App() {
               </Routes>
             </div>
             <Navbar lang={lang} />
-          </>
+          {/* </>
         : 
           <Routes>
             <Route path='/login' element={<Login setLogged={setLogged} lang={lang} /> } />
             <Route path='/signup' element={<Sign setLogged={setLogged} lang={lang} /> } />
           </Routes>
-        }
+        } */}
       </BrowserRouter>
     </div>
   );

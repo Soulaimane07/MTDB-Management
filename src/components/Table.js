@@ -17,7 +17,7 @@ let account = {
     "lang":"english",
     "theme": "light"
 }
-account = JSON.parse(localStorage.getItem('account'))
+// account = JSON.parse(localStorage.getItem('account'))
 
 const lang = account?.lang
 let source
@@ -142,6 +142,7 @@ const SeriesTable = (data, searchOp) => {
                         }).map((val,key)=>(
                         <div key={key} className='card serieCard'>
                                 {DetailsLink(val._id, <img src={`${url}${val.logo_Img}`} />, 'image')}
+                                {console.log(`${url}${val.logo_Img}`)}
                                 <div className='details'>
                                     <h1> {val.title} </h1>
                                     {/* <Link to="details" className='link'> <span> <AiOutlineLink /> </span> {val._id}</Link> */}
