@@ -6,7 +6,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home/Home'
 import Navbar from './Pages/Navbar/Navbar'
 import Series from './Pages/Series/Series';
-import DetailsSeries from './Pages/Series/Details/Details';
+import DetailsSeries from './Pages/Series/Details/Details'; 
 import CreateSeries from './Pages/Series/create/Create';
 
 import Genres from './Pages/Genres/Genres';
